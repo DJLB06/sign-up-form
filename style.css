@@ -1,0 +1,7 @@
+.main-body{
+    display: flex;
+}
+
+.logo-picture{
+    max-width: 25%;
+}
