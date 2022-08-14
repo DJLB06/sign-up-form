@@ -5,17 +5,34 @@ html,body{
 
 }
 
+@font-face {
+    font-family: Norse-Bold;
+    src: url(Norse-Bold.otf);
+}
+
 .main-body{
     display: flex;
 }
 
 .title-side{
+position: relative;
+display: flex;
+justify-content: center;
 background-image: url("duck-man.jpg");
 background-repeat: no-repeat;
 background-size: 100% 100%;
 width: 25%;
 min-width: 500px;
 flex: .25;
+}
+
+.test-background{
+    background-color: black;
+    height: 275px;
+    width: 500px;
+    position: absolute;
+    opacity: .5;
+    top: 150px;
 }
 
 .margin{
@@ -29,6 +46,15 @@ flex: .25;
     height: 100vh;
     justify-content: center;
     flex: .5;
+}
+
+.logo{
+    color: white;
+    font-family: Norse-Bold;
+    font-size: 5rem;
+    margin-top: 200px;
+    font-weight: bolder;
+    z-index: 10;
 }
 
 .caption-text{
@@ -101,6 +127,8 @@ input:focus{
 .account-already{
     margin-top: 10px;
 }
+
+
 
 
 
