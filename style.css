@@ -31,14 +31,22 @@ min-width: 500px;
 .caption-text{
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    min-height: 33%;
+    max-height: 33%;
 }
 
 .fill-section{
     display: grid;
     grid-template-columns: 1fr 2fr;
+    min-height: 33%;
+    max-height: 33%;
 }
 
+.submit-section{
+    min-height: 33%;
+    max-height: 33%;
+}
 form{
     display: grid;
     grid-template-columns: 1fr 1fr;
