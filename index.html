@@ -18,17 +18,29 @@
 
             </div>
             <div class="fill-section">
-                <form>
-                    <label for="fname">First Name: </label><br>
-                    <input type="text" id="fname" name="fname"><br>
-                    <label for="lname">Last Name: </label><br>
-                    <input type="text" id="lname" name="lname"><br>
-                    <label for="email">Email</label><br>
-                    <input type="email" name="email" id="email"><br>
-                    <label for="phone-number">Phone Number</label><br>
+                <form id="sign-up-form">
+                    <label for="fname">First Name: 
+                    <input type="text" id="fname" name="fname">
+                    </label>
+                    <label for="lname">Last Name: 
+                    <input type="text" id="lname" name="lname">
+                    </label>
+                    <label for="email">Email
+                    <input type="email" name="email" id="email">
+                    </label>
+                    <label for="phone-number">Phone Number
                     <input type="tel" id="phone-number" name="phone-number" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                
+                    </label>
+                    <label for="password">Password
+                    <input type="password" id="password" name="password">
+                    </label>
+                    <label for="confirm-password">Confirm Password
+                    <input type="password" id="confirm-password" name="confirm-password">
+                    </label>
                 </form>
+            </div>
+            <div class="submit-section">
+                <input type="submit" form="sign-up-form" value="Create Account">
             </div>
         </div>
     </div>

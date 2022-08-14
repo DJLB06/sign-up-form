@@ -22,6 +22,28 @@ min-width: 500px;
 
 .form-side{
     width: 70%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
 }
+
+.caption-text{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.fill-section{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
 
 
