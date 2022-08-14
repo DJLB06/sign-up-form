@@ -59,7 +59,6 @@ flex: .25;
     padding-left: 50px;
     display: flex;
     flex-direction: column;
-
 }
 
 label{
@@ -97,6 +96,10 @@ input:focus{
     font-weight: bold;
     font-size: 1rem;
     border-radius: 10px;
+}
+
+.account-already{
+    margin-top: 10px;
 }
 
 
